@@ -1,0 +1,13 @@
+  reader.onload = (event) => {
+    const content = event.target.result;
+    const jsonData = JSON.parse(content);
+    const formattedData = JSON.stringify(jsonData, null, 2);
+    document.getElementById('output').innerText = formattedData;
+  };
+
+  convertBtn.addEventListener('click', () => {
+    const jsonData = JSON.parse(document.getElementById('output').innerText);
+    data = convertjson(jsonData);
+    titleoutput.innerText = 'Name: ${data[0]}   BPM: ${data[1]}';
+    outputdiv.innerText = data[2]
+  });

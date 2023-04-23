@@ -11,9 +11,6 @@ fileInput.addEventListener('change', (event) => {
   reader.readAsText(file);
 });
 
-function uploadFile() {
-    const form = document.getElementById('uploadForm');
-    const formData = new FormData(form);
-    
-}
+
+
   

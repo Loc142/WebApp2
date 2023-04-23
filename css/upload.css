@@ -1,44 +1,72 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: #f5f5f5;
-  }
-  
-  h1 {
-    margin-top: 0;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  #jsonFile {
-    display: block;
-  }
-  
-  .output-group {
-    margin-top: 30px;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  #output {
-    white-space: pre-wrap;
-    background-color: #eee;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#jsonFile {
+  display: block;
+}
+
+.output-group {
+  margin-top: 30px;
+}
+
+* {
+  margin-top: 0;
+}
+
+#output {
+  white-space: pre-wrap;
+  background-color: #eee;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#convert-btn {
+  background-color: #4CAF50;
+  /* Màu nền */
+  border: none;
+  /* Không có đường viền */
+  color: white;
+  /* Màu chữ */
+  padding: 10px 20px;
+  /* Khoảng cách giữa nội dung và đường viền */
+  text-align: center;
+  /* Căn giữa nội dung */
+  text-decoration: none;
+  display: inline-block;
+  /* Hiển thị như 1 nút */
+  font-size: 16px;
+  /* Cỡ chữ */
+  margin: 4px 2px;
+  /* Khoảng cách giữa các nút */
+  cursor: pointer;
+  /* Đổi con trỏ chuột thành mũi tên */
+  border-radius: 20px;
+  /* Độ cong viền */
+  transition-duration: 0.4s;
+  /* Thời gian chuyển đổi */
+}
+
+#convert-btn:hover {
+  background-color: #3e8e41;
+  /* Màu nền khi hover */
+  color: white;
+  /* Màu chữ khi hover */
+}
