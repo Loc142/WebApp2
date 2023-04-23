@@ -1,7 +1,7 @@
 const ListNote = [15, 16, 17, 18, 19, 20, 21, 8, 9, 10, 11, 12, 13, 14, 1, 2, 3, 4, 5, 6, 7];
 const Listtembo = ['', ' l', ' j', ' h', ' g', ' g l', ' f', ' f l', ' d', ' d l', ' d j', ' d h', ' s', ' s l', ' s j', ' s h', ' a'];
 
-export function convertjson(file) {
+function convertjson(file) {
   const Data = JSON.parse(file);
  
   if (Array.isArray(Data)) {
